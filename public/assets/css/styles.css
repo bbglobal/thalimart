@@ -1,0 +1,507 @@
+@font-face {
+    font-family: Thalimart Sans;
+    src: url(../fonts/Cutive-Regular.ttf);
+}
+
+@font-face {
+    font-family: Thalimart Helvetica;
+    src: url(../fonts/Helvetica-Neue-Font/Helvetica-Neue-Medium/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf);
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+h1 {
+    font-size: 2.1875rem;
+    text-shadow: 0 0.125rem 0 #fff, 0 0.1875rem 0 #918c88;
+}
+
+h3 {
+    font-size: 1.875rem;
+    font-family: Thalimart Helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Thalimart Helvetica, sans-serif;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: #666;
+}
+
+h1 a {
+    font-size: 2.1875rem;
+}
+
+h1 a {
+    color: #ffa500;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    text-shadow: 0 0.125rem 0 #fff, 0 0.1875rem 0 #918c88;
+    line-height: 0;
+}
+
+h1 a:hover {
+    color: #ffa500;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.nav-text {
+    width: 25rem;
+}
+
+.logo img {
+    width: 5rem;
+}
+
+.phone {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.phone:hover {
+    color: #337ab7;
+}
+
+.tag-line {
+    margin-bottom: 0;
+}
+
+.check-alert {
+    padding: 0.618em 1em 0.618em 3.631em;
+    margin-bottom: 1.618em;
+    background: #fff;
+    border: 1px solid #6ea0b6;
+    border-left-width: 0.382em;
+    position: relative;
+    min-height: 2.618em;
+}
+
+header a.cart-button,
+header a.checkout {
+    margin-top: 30px;
+    padding: 8px 0.857em !important;
+    background-color: #fcfbfa;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfbfa), to(#E6E1DD));
+    background-image: -webkit-linear-gradient(top, #fcfbfa, #E6E1DD);
+    background-image: -moz-linear-gradient(top, #fcfbfa, #E6E1DD);
+    background-image: -ms-linear-gradient(top, #fcfbfa, #E6E1DD);
+    background-image: -o-linear-gradient(top, #fcfbfa, #E6E1DD);
+    background-image: linear-gradient(to bottom, #fcfbfa, #E6E1DD);
+    padding: 0.236em 0.236em 0.236em 0.857em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-left: 0.618em;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 0 0 0.146em rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0.146em rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0.146em rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cart-button .label {
+    color: #FFA500 !important;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.cart-amount {
+    color: #FFA500;
+}
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+header .lozenge {
+    background: #4B1012;
+    padding: 0.236em 0.857em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-left: 0.53em;
+    color: #fff;
+    box-shadow: inset 0 0 0 0.236em #7a5c68;
+    -webkit-box-shadow: inset 0 0 0 0.236em #7a5c68;
+    text-shadow: 0 1px 0 #63404e;
+    color: #ffa500;
+}
+
+header .lozenge:hover {
+    background: #967381;
+}
+
+a.checkout {
+    margin-top: 30px;
+    padding: 8px 0.857em !important;
+    color: #ffa500;
+}
+
+#navigation {
+    margin-bottom: 0;
+    background: url(../img/header.png);
+    background-repeat: repeat-x;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#navigation li {
+    font-family: Thalimart Sans, sans-serif;
+    padding: 1rem;
+    position: relative;
+}
+
+#navigation li a {
+    color: #ffa500;
+}
+
+#navigation li a:hover {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+.chevron-down:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    top: 3.1rem;
+    display: none;
+    background-color: #fff;
+    width: 12.8125rem;
+}
+
+.dropdown li:hover {
+    background-color: #F7F7F7;
+}
+
+.dropdown li {
+    padding: .5rem 1rem !important;
+}
+
+ul {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.type-page {
+    margin: 0 0 2.618em;
+    padding: 3.631em;
+    position: relative;
+    background: url(../img/crinkles.png) top no-repeat, url(../img/post.png), url(../img/nav.gif);
+    background-color: #f7f2ee;
+    border: 1px solid #c4bfbb;
+    border-bottom: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),
+        /* The top layer shadow */
+        0 10px 0 -5px #eee,
+        /* The second layer */
+        0 10px 1px -4px rgba(0, 0, 0, 0.125),
+        /* The second layer shadow */
+        0 20px 0 -10px #eee,
+        /* The third layer */
+        0 20px 1px -9px rgba(0, 0, 0, 0.125),
+        /* The third layer shadow */
+        0 1em 2em rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0.53em 2.618em rgba(0, 0, 0, 0.05), inset 0 0 0 0.618em rgba(255, 255, 255, 0.55), 0 1px 1px rgba(0, 0, 0, 0.15),
+        /* The top layer shadow */
+        0 10px 0 -5px #eee,
+        /* The second layer */
+        0 10px 1px -4px rgba(0, 0, 0, 0.125),
+        /* The second layer shadow */
+        0 20px 0 -10px #eee,
+        /* The third layer */
+        0 20px 1px -9px rgba(0, 0, 0, 0.125),
+        /* The third layer shadow */
+        0 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.btn-thalimart {
+    background: #4B1012;
+    display: inline-block;
+    padding: 0.382em 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: .857em;
+    font-family: "Cutive", sans-serif;
+    overflow: visible;
+    width: auto;
+    line-height: 1.618em;
+    border: 1px dashed #c9a6b4;
+    box-shadow: 0 0 0 0.327em #74515f;
+    -webkit-box-shadow: 0 0 0 0.327em #74515f;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #74515f;
+    position: relative;
+    font-family: Thalimart Sans, sans-serif;
+    font-weight: bold;
+}
+
+.extender-section {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 20px 3px 20px;
+    cursor: pointer;
+}
+
+.extender-section p {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+
+.extender-section span {
+    font-size: 20px;
+    color: #098b8c;
+    font-weight: 600;
+}
+
+.span {
+    background: url(../img/toggle-open.png) no-repeat left transparent;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.testimonial {
+    border: 1px solid #FFF;
+    padding: 20px;
+    text-align: left;
+}
+
+.testimonial-img {
+    border: solid 5px #fff;
+}
+
+.type-page p {
+    color: #333;
+    font-size: 18px;
+}
+
+.quality {
+    color: #800000 !important;
+    font-size: 24px !important;
+    line-height: 1.5;
+}
+
+.product-img {
+    transition: ease all .5s;
+    padding: 0.618em 0.618em 2.244em;
+    background: #fff;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.618em 1.618em 0 rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 0.618em 1.618em 0 rgba(0, 0, 0, 0.25);
+}
+
+.price {
+    font-family: Thalimart Sans, sans-serif;
+    color: #967381;
+}
+
+.additional {
+    border-top: 1px solid #d5d0cc;
+    border-bottom: 1px solid #d5d0cc;
+}
+
+.panel {
+    width: 100%;
+    padding: 20px;
+    border-left: 1px solid #d5d0cc;
+    float: right;
+    margin-bottom: 1.618em;
+    border-top: 1px solid #d5d0cc;
+    padding-top: 1.618em;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel .d-flex {
+    background: #E7E3DF;
+    border: 1px solid #d5ccc5;
+    box-shadow: inset 0 1px 2px 0 #E7E3DF;
+}
+
+table tr {
+    background: #E7E3DF;
+    border: 1px solid #d5ccc5;
+    box-shadow: inset 0 1px 2px 0 #E7E3DF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #E6E1DD;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E1DD), to(#d5d0cc));
+    background-image: -webkit-linear-gradient(top, #E6E1DD, #d5d0cc);
+    background-image: -moz-linear-gradient(top, #E6E1DD, #d5d0cc);
+    background-image: -ms-linear-gradient(top, #E6E1DD, #d5d0cc);
+    background-image: -o-linear-gradient(top, #E6E1DD, #d5d0cc);
+    background-image: linear-gradient(to bottom, #E6E1DD, #d5d0cc);
+    color: #4a3f36;
+    -webkit-box-shadow: inset 0 2px 0 #f7f2ee;
+    -moz-box-shadow: inset 0 2px 0 #f7f2ee;
+    box-shadow: inset 0 2px 0 #f7f2ee;
+}
+
+table th,
+table td {
+    vertical-align: top;
+    padding: 0.382em 0.857em;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+#mob-menu {
+    display: none;
+}
+
+.col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-banner {
+    background-image: url(../img/header.png);
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {
+    #navigation {
+        display: none;
+    }
+
+    #mob-menu {
+        display: block;
+    }
+
+    #mob-menu li {
+        font-family: Thalimart Sans, sans-serif;
+        padding: 1rem;
+        position: relative;
+    }
+
+    #mob-menu li a {
+        color: #ffa500;
+    }
+
+    #mob-menu li a:hover {
+        color: #ffa500;
+        text-decoration: underline;
+    }
+
+    #menu-extra {
+        background-color: #F7F7F7;
+        display: block;
+        position: fixed;
+        width: 100%;
+        transition: all 0.5s;
+        left: -100%;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #check:checked~#menu-extra {
+        left: 0;
+        position: relative;
+    }
+
+
+    #menu-extra li {
+        padding: 10px;
+    }
+
+    #menu-extra {
+        margin-bottom: 10px;
+        background: url(../img/mob-header.png);
+        background-repeat: repeat-x;
+        padding-top: 50px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #dropdown-one {
+        display: none;
+    }
+
+    #check-drop:checked~#dropdown-one {
+        display: block;
+    }
+
+    #check-drop-two:checked~#dropdown-two {
+        display: block;
+    }
+
+    #check-drop-three:checked~#dropdown-three {
+        display: block;
+    }
+
+    #check-drop {
+        display: none;
+    }
+
+    #check-drop-two {
+        display: none;
+    }
+
+    #check-drop-three {
+        display: none;
+    }
+
+    #dropdown-two {
+        display: none;
+    }
+
+    #dropdown-three {
+        display: none;
+    }
+}
